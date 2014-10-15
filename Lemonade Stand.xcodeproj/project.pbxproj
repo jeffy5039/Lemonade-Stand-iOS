@@ -13,6 +13,7 @@
 		EB757F6319EC2541006EB759 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB757F6219EC2541006EB759 /* Images.xcassets */; };
 		EB757F6619EC2541006EB759 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB757F6419EC2541006EB759 /* LaunchScreen.xib */; };
 		EB757F7219EC2541006EB759 /* Lemonade_StandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB757F7119EC2541006EB759 /* Lemonade_StandTests.swift */; };
+		EB757F7C19EC3B8B006EB759 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB757F7B19EC3B8B006EB759 /* Customer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		EB757F6B19EC2541006EB759 /* Lemonade StandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lemonade StandTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB757F7019EC2541006EB759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB757F7119EC2541006EB759 /* Lemonade_StandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lemonade_StandTests.swift; sourceTree = "<group>"; };
+		EB757F7B19EC3B8B006EB759 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				EB757F5B19EC2541006EB759 /* AppDelegate.swift */,
 				EB757F5D19EC2541006EB759 /* ViewController.swift */,
+				EB757F7B19EC3B8B006EB759 /* Customer.swift */,
 				EB757F5F19EC2541006EB759 /* Main.storyboard */,
 				EB757F6219EC2541006EB759 /* Images.xcassets */,
 				EB757F6419EC2541006EB759 /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB757F7C19EC3B8B006EB759 /* Customer.swift in Sources */,
 				EB757F5E19EC2541006EB759 /* ViewController.swift in Sources */,
 				EB757F5C19EC2541006EB759 /* AppDelegate.swift in Sources */,
 			);
